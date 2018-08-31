@@ -1,0 +1,20 @@
+The code uses data from the folliwing reference link:
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+It does the following:
+
+
+-Reads features and activity labels information into seperate vectors to be used later in the script, training set data and associated reference files, test set data and associated reference files 
+
+-Merge the training and test data sets into one dataset. Merge the activity and subject reference tables for the training and test sets into single reference tables. 
+
+-Add in appropriate descriptive labels to the column variables in the merged dataset using the created 'features' vector.  Add in descriptive column labels to the activity and subject tables. in columns to the merged data set so appropriate activity IDs and subject IDs are assigned to each row. 
+
+-Extract only the measurements relating to mean and standard deviation from the merged dataset. 
+
+-Replace the actvity IDs with the descriptive names for the activity. 
+
+-Create a tidy data set where the average for each of the variables has been calculated for each activity and subject combination and shown on a single row. 
+
+  
